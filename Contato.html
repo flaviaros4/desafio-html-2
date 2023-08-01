@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odonto+</title>
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <h1> <img src="ODONTO_ (1).png" height="60"></h1>
+            <ul style="list-style-type: none; padding: 0;">
+                <li style="margin: 10px 0; padding: 5px; background-color: #bfd4cd;">
+                    <i class="fa-solid fa-plus" style="font-size: 20px;color: darkslategrey;"></i><a href="Pagina Principal.html" style="font-size: 20px;color: darkslategray;">ÍNICIO</a>
+                </li>
+                <li style="margin: 10px 0; padding: 5px; background-color: #bfd4cd;">
+                    <i class="fa-solid fa-plus" style="font-size: 20px;color: darkslategrey;"></i> <a href="Sobre a clínica.html"  style="font-size: 20px;color: darkslategray;">SOBRE</a>
+                </li>
+                <li style="margin: 10px 0; padding: 5px; background-color: #bfd4cd;">
+                    <i class="fa-solid fa-plus" style="font-size: 20px;color: darkslategrey;"></i> <a href="Horário de Atendimento.html" style="font-size: 20px;color: darkslategray;">HORÁRIOS</a>
+                </li>
+                <li style="margin: 10px 0; padding: 5px; background-color: #bfd4cd;">
+                    <i class="fa-solid fa-plus" style="font-size: 20px;color: darkslategrey;"></i><a href="Contato.html" style="font-size: 20px;color: darkslategray;">CONTATO</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+               <img src="Contato.png"  >
+            </div>
+    
+            <div class="content" style="text-align: center; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+                <h1 style="color: seagreen; font-size: 30px; margin-bottom: 20px;">Dúvidas ou Sugestões:</h1>
+                <p style="font-size: 18px; color: darkslategrey; margin-bottom: 30px;">
+                    <b>Se você tiver alguma dúvida sobre nossos serviços ou gostaria de nos enviar alguma sugestão, fique à vontade para entrar em contato.</b>
+                </p>
+                <p>
+                    <i class="fa-brands fa-whatsapp" style="font-size: 30px;"></i> 
+                    <a href="tel:41912345678" style="font-size: 18px; color: darkslategrey;">(41) 91234-5678</a>
+                </p>
+                <p>
+                    <i class="fa-solid fa-phone" style="font-size: 30px;"></i> 
+                    <a href="tel:4132345678" style="font-size: 18px; color: darkslategrey;">(41) 3234-5678</a>
+                </p>
+                <p>
+                    <i class="fa-regular fa-envelope" style="font-size: 30px;"></i>
+                    <a href="mailto:odontomais@gmail.com" style="font-size: 18px; color: darkslategrey;">odontomais@gmail.com</a>
+                </p>
+                <form action="/enviar_formulario" method="post" style="max-width: 300px; margin: 0 auto; padding: 30px; border: 1px solid #ccc; border-radius: 8px; background-color: #f9f9f9; margin-top: 30px;">
+                    <p>
+                      <label for="nome" style="font-weight: bold; color: darkslategray; font-size: 18px;">Nome:</label>
+                      <input type="text" id="nome" name="nome" required>
+                    </p>
+                
+                    <p style="position: relative;right: 3px;">
+                        <label for="email" style="font-weight: bold; color: darkslategray; font-size: 18px;">E-mail:</label>
+                        <input type="email" id="email" name="email" required>
+                      </p>
+                      <p style="position: relative;right: 11px;">
+                        <label for="assunto" style="font-weight: bold; color: darkslategray; font-size: 18px;">Assunto:</label>
+                        <input type="text" id="assunto" name="assunto">
+                      </p>
+                      <p>
+                        <label for="mensagem" style="font-weight: bold; color: darkslategray; font-size: 18px;">Mensagem:</label>
+                        <textarea id="mensagem" name="mensagem" rows="5" style="width: 100%; resize: none;" maxlength="500" required></textarea>
+                      </p>
+                      <p>
+                        <button type="submit" style="background-color: darkgreen; color: #fff; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">Enviar</button>
+                        <button type="reset" style="background-color: darkgreen; color: #fff; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">Limpar</button>
+                      </p>
+                    </form>      
+                 
+                    <h2 style="margin-top: 30px; color: seagreen; font-size: 30px;">Localização</h2>
+                    <p style="font-size: 18px; color: darkslategrey; margin-bottom: 30px;"><b>Nosso consultório está localizado no coração da cidade, com fácil acesso e estacionamento disponível nas proximidades. Confira o mapa abaixo para obter orientações sobre como chegar:</b></p>
+                    <p style="font-size: 18px; color: rgb(17, 53, 33); margin-bottom: 30px;">
+                      <i class="fa-solid fa-map-pin"></i> <b><br>
+                      Praça Rui Barbosa <br> Centro, Curitiba - PR, 82590-300 </b>
+                  </p>
+                  <div style="margin: 20px; padding: 10px;">
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28824.384161275873!2d-49.29525408250669!3d-25.436658057685428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce471f7feb387%3A0xd531020022513c4b!2sPra%C3%A7a%20Rui%20Barbosa%20-%20Centro%2C%20Curitiba%20-%20PR%2C%2082590-300!5e0!3m2!1spt-BR!2sbr!4v1690002678153!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
+                </div>
+    
+                <div class="footer" style="text-align: center;">
+                    <h2 style="font-family: Verdana, Geneva, Tahoma, sans-serif; color: seagreen; font-size: 25px;">Fale Conosco</h2>
+                    <ul style="list-style-type: none; padding: 0; margin-top: 20px; font-size: 18px; color: rgb(32, 51, 51); ">
+                        <li style="display: inline-block; margin: 10px;"><i class="fa-brands fa-whatsapp"></i> <a href="tel:41912345678" style="color:  rgb(32, 51, 51); ">(41) 91234-5678</a></li>
+                        <li style="display: inline-block; margin: 10px;"><i class="fa-solid fa-phone"></i> <a href="tel:4132345678" style="color:  rgb(32, 51, 51); ">(41) 3234-5678</a></li>
+                        <li style="display: inline-block; margin: 10px;"><i class="fa-regular fa-envelope"></i> <a href="mailto:odontomais@gmail.com" style="color:  rgb(32, 51, 51); ">odontomais@gmail.com</a></li>
+                        <li style="display: inline-block; margin: 10px;"><i class="fa-brands fa-facebook"></i> <a href="https://www.facebook.com/odonto+" target="_blank" style="color:  rgb(32, 51, 51); ";" >Odonto+</a></li>
+                    </ul>
+                </div>
+                
+                
+            </div>
+        </div>
+    </body>
+    </html>
